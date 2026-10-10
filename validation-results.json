@@ -1,0 +1,160 @@
+{
+  "project": "vision-playground",
+  "executed_at_utc": "2026-10-10T17:43:26.869504+00:00",
+  "kind": "actual automated validation using fictional or synthetic data",
+  "not_user_traffic": true,
+  "scenario_count": 10,
+  "passed": 10,
+  "results": [
+    {
+      "scenario": 1,
+      "input": {
+        "mode": "original",
+        "width": 16,
+        "height": 16,
+        "synthetic_pattern": 1
+      },
+      "output_summary": {
+        "mean_intensity": 125.0,
+        "min": 0.0,
+        "max": 255.0
+      },
+      "passed": true
+    },
+    {
+      "scenario": 2,
+      "input": {
+        "mode": "blur",
+        "width": 16,
+        "height": 16,
+        "synthetic_pattern": 2
+      },
+      "output_summary": {
+        "mean_intensity": 124.5,
+        "min": 15.0,
+        "max": 211.33333333333331
+      },
+      "passed": true
+    },
+    {
+      "scenario": 3,
+      "input": {
+        "mode": "edges",
+        "width": 16,
+        "height": 16,
+        "synthetic_pattern": 3
+      },
+      "output_summary": {
+        "mean_intensity": 249.30991678226917,
+        "min": 175.86358349584486,
+        "max": 255
+      },
+      "passed": true
+    },
+    {
+      "scenario": 4,
+      "input": {
+        "mode": "original",
+        "width": 16,
+        "height": 16,
+        "synthetic_pattern": 4
+      },
+      "output_summary": {
+        "mean_intensity": 124.5,
+        "min": 0.0,
+        "max": 254.0
+      },
+      "passed": true
+    },
+    {
+      "scenario": 5,
+      "input": {
+        "mode": "blur",
+        "width": 16,
+        "height": 16,
+        "synthetic_pattern": 5
+      },
+      "output_summary": {
+        "mean_intensity": 127.0,
+        "min": 32.0,
+        "max": 189.66666666666666
+      },
+      "passed": true
+    },
+    {
+      "scenario": 6,
+      "input": {
+        "mode": "edges",
+        "width": 16,
+        "height": 16,
+        "synthetic_pattern": 6
+      },
+      "output_summary": {
+        "mean_intensity": 232.69996106793937,
+        "min": 174.72263734273244,
+        "max": 255
+      },
+      "passed": true
+    },
+    {
+      "scenario": 7,
+      "input": {
+        "mode": "original",
+        "width": 16,
+        "height": 16,
+        "synthetic_pattern": 7
+      },
+      "output_summary": {
+        "mean_intensity": 125.0,
+        "min": 0.0,
+        "max": 255.0
+      },
+      "passed": true
+    },
+    {
+      "scenario": 8,
+      "input": {
+        "mode": "blur",
+        "width": 16,
+        "height": 16,
+        "synthetic_pattern": 8
+      },
+      "output_summary": {
+        "mean_intensity": 125.5,
+        "min": 49.0,
+        "max": 193.33333333333331
+      },
+      "passed": true
+    },
+    {
+      "scenario": 9,
+      "input": {
+        "mode": "edges",
+        "width": 16,
+        "height": 16,
+        "synthetic_pattern": 9
+      },
+      "output_summary": {
+        "mean_intensity": 228.7185893388744,
+        "min": 177.08754896942924,
+        "max": 255
+      },
+      "passed": true
+    },
+    {
+      "scenario": 10,
+      "input": {
+        "mode": "original",
+        "width": 16,
+        "height": 16,
+        "synthetic_pattern": 10
+      },
+      "output_summary": {
+        "mean_intensity": 125.5,
+        "min": 0.0,
+        "max": 254.0
+      },
+      "passed": true
+    }
+  ]
+}
